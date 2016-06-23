@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="185.0" prefWidth="328.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="185.0" prefWidth="328.0">
+      <children>
+        <TextField fx:id="textFieldDescricao" layoutX="86.0" layoutY="24.0" prefWidth="215.0" />
+        <TextField fx:id="textFieldVigencia" layoutX="86.0" layoutY="53.0" prefWidth="215.0" />
+        <TextField fx:id="textFieldValor" cache="true" layoutX="86.0" layoutY="83.0" prefWidth="126.0" />
+        <ComboBox fx:id="comboBocTitular" layoutX="86.0" layoutY="111.0" prefHeight="21.0" prefWidth="215.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <Button fx:id="btnConfirmar" layoutX="151.0" layoutY="154.0" mnemonicParsing="false" text="Confirmar" />
+        <Button fx:id="btnCancelar" layoutX="228.0" layoutY="154.0" mnemonicParsing="false" prefWidth="73.0" text="Cancelar" />
+        <Label layoutX="23.0" layoutY="86.0" text="Valor" />
+        <Label layoutX="23.0" layoutY="56.0" text="Vigencia" />
+        <Label layoutX="23.0" layoutY="114.0" text="Titular" />
+        <Label layoutX="72.0" layoutY="86.0" text="R$" />
+        <Label layoutX="23.0" layoutY="27.0" text="Descrição" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

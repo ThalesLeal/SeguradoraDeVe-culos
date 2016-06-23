@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="220.0" prefWidth="334.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="220.0" prefWidth="334.0">
+      <children>
+        <TextField fx:id="textFieldNumero" layoutX="67.0" layoutY="11.0" prefWidth="200.0" />
+        <TextArea fx:id="textAreaMensagem" layoutX="14.0" layoutY="66.0" prefHeight="113.0" prefWidth="306.0" wrapText="true" />
+        <Button fx:id="btnEnviar" layoutX="191.0" layoutY="188.0" mnemonicParsing="false" text="Enviar" />
+        <Button fx:id="btnCancelar" layoutX="254.0" layoutY="188.0" mnemonicParsing="false" text="Cancelar" />
+        <Label fx:id="lblNumero" layoutX="14.0" layoutY="14.0" text="Número" />
+        <Label fx:id="lblMensagem" layoutX="14.0" layoutY="43.0" text="Mensagem" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

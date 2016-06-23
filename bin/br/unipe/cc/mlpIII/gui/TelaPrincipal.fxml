@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="417.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="500.0" prefWidth="417.0">
+      <children>
+        <ImageView fitHeight="264.9101284999997" fitWidth="397.5047607421875" layoutX="10.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../../../../../../../../Desktop/29-05carro4.jpg" />
+          </image>
+        </ImageView>
+        <Button fx:id="btnSeguros" layoutX="14.0" layoutY="255.0" mnemonicParsing="false" prefHeight="48.9609375" prefWidth="389.0" text="Seguros" />
+        <Button fx:id="btnVeiculos" layoutX="14.0" layoutY="315.0" mnemonicParsing="false" prefHeight="48.9609375" prefWidth="389.0" text="Veículos" />
+        <Button fx:id="btnTitulares" layoutX="14.0" layoutY="376.0" mnemonicParsing="false" prefHeight="48.9609375" prefWidth="389.0" text="Titulares" />
+        <Button fx:id="btnEnderecos" layoutX="14.0" layoutY="437.0" mnemonicParsing="false" prefHeight="48.9609375" prefWidth="389.0" text="Endereços" />
+        <Button fx:id="btnSms" layoutX="357.0" layoutY="216.0" mnemonicParsing="false" prefHeight="34.9609375" prefWidth="46.0" text="SMS" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

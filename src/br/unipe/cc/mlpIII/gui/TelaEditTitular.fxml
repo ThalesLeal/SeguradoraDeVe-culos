@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="149.0" prefWidth="387.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="149.0" prefWidth="387.0">
+      <children>
+        <Label layoutX="18.0" layoutY="14.0" text="Nome" />
+        <Label layoutX="18.0" layoutY="38.0" text="CPF" />
+        <Label layoutX="194.0" layoutY="38.0" text="Identidade" />
+        <Label layoutX="18.0" layoutY="61.0" text="Telefone" />
+        <Label layoutX="18.0" layoutY="87.0" text="Endereço" />
+        <TextField fx:id="textFieldNome" layoutX="79.0" layoutY="11.0" prefWidth="291.0" />
+        <TextField fx:id="textFieldCPF" layoutX="79.0" layoutY="35.0" prefWidth="108.0" />
+        <TextField fx:id="textFieldIdentidade" layoutX="262.0" layoutY="35.0" prefWidth="108.0" />
+        <TextField fx:id="textFieldTelefone" layoutX="79.0" layoutY="58.0" prefWidth="108.0" />
+        <ComboBox fx:id="comboBoxEndereco" layoutX="79.0" layoutY="85.0" prefHeight="21.0" prefWidth="291.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <Button fx:id="btnConfirmar" layoutX="220.0" layoutY="118.0" mnemonicParsing="false" text="Confirmar" />
+        <Button fx:id="btnCancelar" layoutX="297.0" layoutY="118.0" mnemonicParsing="false" prefWidth="73.0" text="Cancelar" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
